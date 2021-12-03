@@ -6,11 +6,69 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
+}
+
+.nav{
+  background-color: #83c5be;
+  padding: 15px;
+  margin-top: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+p{
+  font-size: larger;
+  display: flex;
+  align-items: center;
+}
+
+.inp{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+input{
+  padding: 15px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background-color: #e2f2f7;
+  margin-left : 150px;
+  width: 230px;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.tag{
+  padding: 10px;
+  margin: 15px 15px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background-color: #BADEDA;
+  display: flex;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
+
+}
+
+@media screen and (min-width: 320px) {
+ .inp{
+   margin: 100px;
+   display: flex;
+   justify-content: space-evenly;
+   margin-left: 10px;
+   margin-right: 10px;
+ }
+
 }
